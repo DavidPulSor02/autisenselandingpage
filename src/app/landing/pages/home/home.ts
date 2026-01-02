@@ -4,11 +4,12 @@ import { Navbar } from '../../components/navbar/navbar';
 import { Inicio } from '../../components/inicio/inicio';
 import { Sobrenosotros } from "../../components/sobrenosotros/sobrenosotros";
 import { Footers } from '../../components/footers/footers';
+import { Ventajas } from "../../../pages/ventajas/ventajas";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [Hero, Navbar, Inicio, Sobrenosotros,Footers],
+  imports: [Hero, Navbar, Inicio, Sobrenosotros, Footers, Ventajas],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
