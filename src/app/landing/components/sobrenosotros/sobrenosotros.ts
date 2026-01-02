@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-sobrenosotros',
   standalone: true,
@@ -7,3 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './sobrenosotros.css'
 })
 export class Sobrenosotros {}
+
